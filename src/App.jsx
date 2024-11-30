@@ -3,15 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Header'
-import Scroll from './components/ScrollBar/Scroll'
 
 function App() {  
 
   return (
     <>
     <Header/>
-    <Scroll />
-    {/* add container with 'mt-40' */}
+
     </>
   )
 }

@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
+import Scroll from '../ScrollBar/Scroll';
 // import {Link} from 'react-router-dom'
 
 function Header() {
 
-    const [isScrolled, setIsScrolled] = useState(true)
+    const [isScrolled, setIsScrolled] = useState(false)
 
     window.addEventListener("scroll", () => {
-        const scroll = window.scrollY;
-        setIsScrolled(scroll > 5)
+        const scrl = window.scrollY;
+        setIsScrolled(scrl > 1)
     })
 
   return (
@@ -26,6 +27,7 @@ function Header() {
                 <button className='uppercase' >Book A Stay</button>
             </div>
         </div>
+        <Scroll />
     </>
   )
 }

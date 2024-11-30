@@ -22,7 +22,7 @@ function Scroll() {
 
 
   return (
-    <div className=''>
+    <div className='mb-20'>
         <div 
         className="fixed top-20 left-0 h-0.5 bg-[#007bff] transition-[width] duration-100 ease-out z-50"
         style={{width: `${scrollPosition}%`}}
