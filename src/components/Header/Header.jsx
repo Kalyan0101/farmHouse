@@ -2,9 +2,10 @@ import React from 'react'
 // import {Link} from 'react-router-dom'
 
 function Header() {
+
   return (
     <>
-        <div className="w-full flex justify-around text-xl mt-5 ">
+        <div className="w-full h-20 flex justify-around items-center text-xl mt-2 bg-transparent">
             <div className="text-3xl">
                 <h1>AADILA FARMHOUSE</h1>
             </div>
