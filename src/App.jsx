@@ -11,6 +11,7 @@ function App() {
     <>
     <Header/>
     <Scroll />
+    {/* add container with 'mt-40' */}
     </>
   )
 }

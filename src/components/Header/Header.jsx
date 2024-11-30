@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 // import {Link} from 'react-router-dom'
 
 function Header() {
 
+    const [isScrolled, setIsScrolled] = useState(true)
+
+    window.addEventListener("scroll", () => {
+        const scroll = window.scrollY;
+        setIsScrolled(scroll > 5)
+    })
+
   return (
     <>
-        <div className="w-full h-20 flex justify-around items-center text-xl mt-2 bg-transparent">
+        <div className={`w-full h-20 flex justify-around items-center text-xl ${isScrolled ? "bg-white" : "bg-transparent"} fixed top-0 left-0 overflow-hidden z-50`}>
             <div className="text-3xl">
                 <h1>AADILA FARMHOUSE</h1>
             </div>
