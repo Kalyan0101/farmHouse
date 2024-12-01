@@ -18,10 +18,10 @@ function Header() {
                 <h1>AADILA FARMHOUSE</h1>
             </div>
             <div className="flex justify-between gap-10 list-none">
-                <li><a>ABOUT US</a></li>
-                <li><a>DINING</a></li>
-                <li><a>LOCATION</a></li>
-                <li><a>CONTACT US</a></li>
+                <li><a href='#'>ABOUT US</a></li>
+                <li><a href=''>DINING</a></li>
+                <li><a href=''>LOCATION</a></li>
+                <li><a href=''>CONTACT US</a></li>
             </div>
             <div className="text-lg px-11 py-4 text-white font-bold bg-[#AD8B3A] ">
                 <button className='uppercase' >Book A Stay</button>
