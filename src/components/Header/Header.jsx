@@ -14,8 +14,8 @@ function Header() {
   return (
     <>
         <div className={`w-full h-20 flex justify-around items-center text-xl ${isScrolled ? "bg-white" : "bg-transparent"} fixed top-0 left-0 overflow-hidden z-50`}>
-            <div className="text-3xl">
-                <h1>AADILA FARMHOUSE</h1>
+            <div className="text-2xl">
+                <h1 className='text-nowrap'>AADILA FARMHOUSE</h1>
             </div>
             <div className="flex justify-between gap-10 list-none">
                 <li><a href='#'>ABOUT US</a></li>
